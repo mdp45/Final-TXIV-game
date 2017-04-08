@@ -21,17 +21,17 @@ Prepare This Readme.
 
 
 //TODO
- ** Draw some map designs (1 or 2 map designs) - Everyone
- ** Movement scripts - Jeremy
- ** Learn projectile shots - Marc
- ** Design control scheme - Brian
- ** Decide with some powerups to start - Everyone
+ * Draw some map designs (1 or 2 map designs) - Everyone
+ * Movement scripts - Jeremy
+ * Learn projectile shots - Marc
+ * Design control scheme - Brian
+ * Decide with some powerups to start - Everyone
  
 
 ##Due 04/15:
 //TODO
- ** Put the map together
- ** Health Bars
+ * Put the map together
+ * Health Bars
  
 ##Scrum meeting notes:
 //TODO
@@ -39,28 +39,28 @@ Prepare This Readme.
 ---
 ##Due 04/22:
 //TODO
- ** Implement powerups
- ** Map specific attributes (Knockback physics, Low grav physics, slippery notes
+ * Implement powerups
+ * Map specific attributes (Knockback physics, Low grav physics, slippery notes
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 04/29:
 //TODO
- ** Basic functionality complete. (At least the basic map is fully playable without bugs
+ * Basic functionality complete. (At least the basic map is fully playable without bugs
 ##Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/06:
 //TODO
- ** Work on other maps. Plan to do at least 3.
+ * Work on other maps. Plan to do at least 3.
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/13:
- ** Panic as required.
+ * Panic as required.
 ###Scrum meeting notes:
 //TODO
 
