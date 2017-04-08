@@ -5,10 +5,10 @@ Detailed Description (Add pictures/videos by Demo day) //todo
 Prepare This Readme. 
 //TODO
 
-* Decide on the Idea.
-* Decide on the target platform(Mac/Android/IOS,etc).
-* Discuss weekly scrum meeting times outside of class times. Can be remote meetings, but in-person meetings are highly recommended.
-* Decide who is going to be the manager for the Git Repo. 
+* 1v1 2d physics shooter
+* Windows & Mac first, android and iOS later if possible.
+* Everything on discord, will arrange for face to face meetups as needed.
+* Marc will manage the git Repo
 * Write out the various milestones below in the following format "Requirement - person responsible."
 * Example: "Prepare health manager and mechanism for all relevant players to have a health component - Omar" 
 * Make sure you discuss the idea and milestones with me on the first day, or anytime you decide to pivot your project.
@@ -21,35 +21,46 @@ Prepare This Readme.
 
 
 //TODO
-
-
+ ** Draw some map designs (1 or 2 map designs) - Everyone
+ ** Movement scripts - Jeremy
+ ** Learn projectile shots - Marc
+ ** Design control scheme - Brian
+ ** Decide with some powerups to start - Everyone
+ 
 
 ##Due 04/15:
 //TODO
-###Scrum meeting notes:
+ ** Put the map together
+ ** Health Bars
+ 
+##Scrum meeting notes:
 //TODO
 
 ---
 ##Due 04/22:
 //TODO
+ ** Implement powerups
+ ** Map specific attributes (Knockback physics, Low grav physics, slippery notes
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 04/29:
 //TODO
-###Scrum meeting notes:
+ ** Basic functionality complete. (At least the basic map is fully playable without bugs
+##Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/06:
 //TODO
+ ** Work on other maps. Plan to do at least 3.
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/13:
-//TODO
+ ** Panic as required.
 ###Scrum meeting notes:
 //TODO
 
