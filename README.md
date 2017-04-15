@@ -21,7 +21,6 @@ Prepare This Readme.
 
 
 //TODO
- * Draw some map designs (1 or 2 map designs) - Everyone
  * Movement scripts - Jeremy
  * Learn projectile shots - Marc
  * Design control scheme - Brian
@@ -30,19 +29,26 @@ Prepare This Readme.
 
 ##Due 04/15:
 //TODO
- * Put the map together
- * Health Bars
+ * Put the map together -Basic level done -Jeremy.  Need to add colliders.
+ * Movement script done - Jeremy
+ * Working on projectiles - Marc in progress
+ * Looking for assets - Brian in progress.
  
 ##Scrum meeting notes:
 //TODO
+ * Will add colliders for the level - Brian
+ * Continue working on projectiles - Marc
+ * Health bars - Jeremy
+ * Powerups to use: Heal, Big ammo, Double shots, Shields, Phase missile, Sticky bombs, Ignore wind force.
 
 ---
 ##Due 04/22:
 //TODO
- * Implement powerups
- * Map specific attributes (Knockback physics, Low grav physics, slippery notes
+ * basic projectile working
+ * ~Map specific attributes (Knockback physics, Low grav physics, slippery notes)
+ * Health bars working 
 ###Scrum meeting notes:
-//TODO
+//TODO (Thursday 04/20)
 
 ---
 ##Due 04/29:
