@@ -36,7 +36,7 @@ Prepare This Readme.
  
 ##Scrum meeting notes:
 //TODO
- * More assets - Brian
+ * Control scheme -Brian
  * Continue working on projectiles - Marc
  * Health bars - Jeremy
  * Powerups to use: Heal, Big ammo, Double shots, Shields, Phase missile, Sticky bombs, Ignore wind force.
