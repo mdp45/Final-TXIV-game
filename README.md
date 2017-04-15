@@ -29,14 +29,14 @@ Prepare This Readme.
 
 ##Due 04/15:
 //TODO
- * Put the map together -Basic level done -Jeremy.  Need to add colliders.
+ * Put the map together -Basic level done -Jeremy.
  * Movement script done - Jeremy
  * Working on projectiles - Marc in progress
  * Looking for assets - Brian in progress.
  
 ##Scrum meeting notes:
 //TODO
- * Will add colliders for the level - Brian
+ * More assets - Brian
  * Continue working on projectiles - Marc
  * Health bars - Jeremy
  * Powerups to use: Heal, Big ammo, Double shots, Shields, Phase missile, Sticky bombs, Ignore wind force.
