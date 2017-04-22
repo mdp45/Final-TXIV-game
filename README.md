@@ -21,34 +21,39 @@ Prepare This Readme.
 
 
 //TODO
- * Movement scripts - Jeremy
- * Learn projectile shots - Marc
- * Design control scheme - Brian
- * Decide with some powerups to start - Everyone
+ * ~~Movement scripts~~ - Completed by Jeremy
+ * ~~Learn projectile shots~~ - Completed by Marc
+ * ~~Design control scheme~~ - Completed by Brian
+ * ~~Decide with some powerups to start~~ - Completed by Everyone
  
 
 ##Due 04/15:
 //TODO
- * Put the map together -Basic level done -Jeremy.
- * Movement script done - Jeremy
- * Working on projectiles - Marc in progress
- * Looking for assets - Brian in progress.
+ * ~~Put the map together -Basic level done~~ - Completed by Jeremy.
+ * ~~Movement script done~~ - Completd by Jeremy
+ * ~~Working on projectiles~~ - Completed by Marc
+ * Looking for assets - Brian & Marc in progress.
  
 ##Scrum meeting notes:
 //TODO
- * Control scheme -Brian
- * Continue working on projectiles - Marc
- * Health bars - Jeremy
+ * ~~Aim controls~~ - completed by Brian
+ * ~~Continue working on projectiles~~ - Completed by Marc
+ * ~~Health bars~~ - Completed by Jeremy
  * Powerups to use: Heal, Big ammo, Double shots, Shields, Phase missile, Sticky bombs, Ignore wind force.
 
 ---
 ##Due 04/22:
 //TODO
- * basic projectile working
+ * ~~basic projectile working~~ - Completed by Marc
  * ~Map specific attributes (Knockback physics, Low grav physics, slippery notes)
- * Health bars working 
+ * ~~Health bars working~~ - Completed by Jeremy
 ###Scrum meeting notes:
 //TODO (Thursday 04/20)
+ * Damage system - Jeremy
+ * Turn based game manager = Jeremy
+ * Projectile force control - Marc
+ * Projectile gravity - Marc
+ * Wind system - Brian
 
 ---
 ##Due 04/29:
