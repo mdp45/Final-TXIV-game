@@ -12,7 +12,6 @@ public class Health : MonoBehaviour {
 	void Start ()
     {
         currentHealth = maxHealth;
-        InvokeRepeating("takeDamage", 1f, 1f);
 	}
 	
 	// Update is called once per frame
@@ -21,9 +20,9 @@ public class Health : MonoBehaviour {
 
 	}
 
-    void takeDamage()
+    public void takeDamage(float dmg)
     {
-        currentHealth -= 4f;
+        currentHealth -= dmg;
         updateHPbar();
     }
 

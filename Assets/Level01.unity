@@ -118,7 +118,6 @@ GameObject:
   - component: {fileID: 206063512}
   - component: {fileID: 206063511}
   - component: {fileID: 206063513}
-  - component: {fileID: 206063514}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -204,18 +203,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8, y: 4}
   m_EdgeRadius: 0
---- !u!114 &206063514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 206063510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b48e62de91cb5d84da2995851f848e98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
 --- !u!1 &681253265 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1336354199955906, guid: 696d6762f523a574b9cf191ee7fbf61d,
