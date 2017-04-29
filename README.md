@@ -49,23 +49,25 @@ Prepare This Readme.
  * ~~Health bars working~~ - Completed by Jeremy
 ###Scrum meeting notes:
 //TODO (Thursday 04/20)
- * Damage system - Jeremy
- * Turn based game manager = Jeremy
+ * ~~Damage system~~ - completed by Jeremy
+ * ~~Turn based game manager~~ - completed by Jeremy
  * Projectile force control - Marc
  * Projectile gravity - Marc
- * Wind system - Brian
+ * ~~Start Menu~~ - Completed by Brian
 
 ---
 ##Due 04/29:
 //TODO
- * Basic functionality complete. (At least the basic map is fully playable without bugs
+ * Put everything together - Jeremy
+ * Transistion prompts UI - Brian
+ * Projectile - Marc
 ##Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/06:
 //TODO
- * Work on other maps. Plan to do at least 3.
+ * COMPLETE.
 ###Scrum meeting notes:
 //TODO
 
