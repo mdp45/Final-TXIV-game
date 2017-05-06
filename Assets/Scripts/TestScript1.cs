@@ -19,6 +19,14 @@ public class TestScript1 : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //collision.gameObject.GetComponent<PlayerMovement>().enabled = false;
-        TurnManager.GetComponent<TurnManager>().SwitchPlayer();
+        if (collision.gameObject.CompareTag("p1"))
+        {
+            TurnManager.GetComponent<TurnManager>().SwitchToPlayer2();
+        }
+        if (collision.gameObject.CompareTag("p2"))
+        {
+            TurnManager.GetComponent<TurnManager>().SwitchToPlayer1();
+        }
+
     }
 }

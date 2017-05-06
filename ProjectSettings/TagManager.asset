@@ -6,6 +6,8 @@ TagManager:
   tags:
   - RocketLauncher
   - FirePoint
+  - p1
+  - p2
   layers:
   - Default
   - TransparentFX
@@ -42,6 +44,12 @@ TagManager:
   m_SortingLayers:
   - name: BG
     uniqueID: 349295493
+    locked: 0
+  - name: BG accents
+    uniqueID: 341025141
+    locked: 0
+  - name: Wall
+    uniqueID: 4084720477
     locked: 0
   - name: Level platforms
     uniqueID: 3534215671

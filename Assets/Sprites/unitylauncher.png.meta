@@ -1,10 +1,16 @@
 fileFormatVersion: 2
 guid: 0dd4f008277aa1e4398d93122ee96a10
-timeCreated: 1492528480
+timeCreated: 1493707685
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Rocket Launcher
+    21300002: unitylauncher_0
+    21300004: unitylauncher_1
+    21300006: unitylauncher_2
+    21300008: unitylauncher_3
+    21300010: unitylauncher_4
+    21300012: unitylauncher_5
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -71,15 +77,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rocket Launcher
+      name: unitylauncher_0
       rect:
         serializedVersion: 2
-        x: 23
+        x: 24
         y: 262
-        width: 86
+        width: 84
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: unitylauncher_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 264
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: unitylauncher_3
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 261
+        width: 70
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: unitylauncher_4
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 260
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: unitylauncher_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 264
+        width: 57
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
