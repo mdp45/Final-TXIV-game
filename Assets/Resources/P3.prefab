@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327049221820140}
   m_LocalRotation: {x: 0, y: -0, z: 0.9396927, w: -0.34202015}
-  m_LocalPosition: {x: 13.85, y: -1.28, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_LocalPosition: {x: 13.24, y: -4.13, z: 0}
+  m_LocalScale: {x: -1.6396312, y: -1.6396312, z: -0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -57,7 +57,7 @@ Rigidbody2D:
   m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.7
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 5
+  TurnManager: {fileID: 0}
 --- !u!212 &212502674482212492
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -122,7 +123,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300012, guid: 46f8484d2c3682446b394f6cbc094b46, type: 3}
+  m_Sprite: {fileID: 21300016, guid: 46f8484d2c3682446b394f6cbc094b46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

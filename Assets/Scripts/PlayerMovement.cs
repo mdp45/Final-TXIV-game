@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed;
     private Rigidbody2D playerbody;
+    Animator anim;
 
 
     // Use this for initialization
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         playerbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,6 +24,15 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         moveLeftRight(CrossPlatformInputManager.GetAxisRaw("Horizontal"));
+        if (CrossPlatformInputManager.GetAxisRaw("Horizontal") != 0)
+        {
+            anim.SetInteger("State", 1);
+        }
+        else
+        {
+            anim.SetInteger("State", 0);
+        }
+
     }
 
     void moveLeftRight(float moveInput)
@@ -32,20 +43,5 @@ public class PlayerMovement : MonoBehaviour
         /*float moveX = Input.GetAxis("Horizontal");
         Vector2 movement = new Vector2(moveX, 0);
         playerbody.AddForce(movement * speed);*/
-    }
-
-    public void LeftTouch()
-    {
-        moveLeftRight(-1);
-    }
-
-    public void RightTouch()
-    {
-        moveLeftRight(1);
-    }
-
-    public void NoInput()
-    {
-        moveLeftRight(0);
     }
 }

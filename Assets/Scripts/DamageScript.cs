@@ -5,9 +5,10 @@ using UnityEngine;
 public class DamageScript : MonoBehaviour {
 
     public float damageAmount = 5f;
+    public GameObject TurnManager;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -18,6 +19,14 @@ public class DamageScript : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.GetComponent<Health>().takeDamage(damageAmount);
+        if (collision.gameObject.CompareTag("p1") || collision.gameObject.CompareTag("p2"))
+        {
+            collision.gameObject.GetComponent<Health>().takeDamage(damageAmount);
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            Destroy(this.gameObject, 0.2f);
+        }
     }
 }

@@ -90,6 +90,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 5
+  TurnManager: {fileID: 1964505764125562, guid: 4faa3d9dd9b8fd341a9e4bf36055ef3d,
+    type: 2}
 --- !u!212 &212282182841692392
 SpriteRenderer:
   m_ObjectHideFlags: 1
