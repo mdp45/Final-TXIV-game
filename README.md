@@ -32,51 +32,56 @@ Prepare This Readme.
  * ~~Put the map together -Basic level done~~ - Completed by Jeremy.
  * ~~Movement script done~~ - Completd by Jeremy
  * ~~Working on projectiles~~ - Completed by Marc
- * Looking for assets - Brian & Marc in progress.
+ * ~~Looking for assets~~ - Completed by Brian & Marc
  
 ##Scrum meeting notes:
 //TODO
  * ~~Aim controls~~ - completed by Brian
  * ~~Continue working on projectiles~~ - Completed by Marc
  * ~~Health bars~~ - Completed by Jeremy
- * Powerups to use: Heal, Big ammo, Double shots, Shields, Phase missile, Sticky bombs, Ignore wind force.
 
 ---
 ##Due 04/22:
 //TODO
  * ~~basic projectile working~~ - Completed by Marc
- * ~Map specific attributes (Knockback physics, Low grav physics, slippery notes)
  * ~~Health bars working~~ - Completed by Jeremy
 ###Scrum meeting notes:
 //TODO (Thursday 04/20)
  * ~~Damage system~~ - completed by Jeremy
  * ~~Turn based game manager~~ - completed by Jeremy
- * Projectile force control - Marc
- * Projectile gravity - Marc
+ * ~~Projectile force control~~ - completed Marc & Jeremy
+ * ~~Projectile gravity~~ - Completed by Marc
  * ~~Start Menu~~ - Completed by Brian
 
 ---
 ##Due 04/29:
 //TODO
- * Put everything together - Jeremy
- * Transistion prompts UI - Brian
- * Projectile - Marc
+ * ~~Put everything together~~ - completed by Jeremy
+ * ~~Transistion prompts UI~~ - In progress, makeshift in place.
+ * ~~Projectile~~ - Completed by Marc
 ##Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/06:
 //TODO
- * COMPLETE.
+ * ~~Animation sequences~~ - completed by Brian
+ * ~~Finding Background music & SFX~~ - Marc & Brian
 ###Scrum meeting notes:
 //TODO
 
 ---
 ##Due 05/13:
- * Panic as required.
+ * ~~Animation controller~~ - Completed by Brian & Marc
+ * ~~Projectile max force function~~ - Completed by Jeremy
+ * ~~Mobile Controls~~ - Completed by Jeremy
+ * Background music and SFX - Marc and Brian
 ###Scrum meeting notes:
 //TODO
-
+ * Implement the SFX. - Brian & Marc
+ * Refine the transition - Jeremy
+ * Game Over - Jeremy
+ * Power bar if have time - Anyone
 ---
 ##Due 05/20:DEMO DAY
 //TODO
