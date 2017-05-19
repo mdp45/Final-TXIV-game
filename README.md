@@ -1,11 +1,9 @@
 #Final Project - Electroball Toss
+
 This is a skill base projectile shooter loosely based on the Worms game and Cats VS Dog game. 
-Unlike Cat vs Dog, you have movement controls on your character like worms. 
+Unlike Cat vs Dog, you have movement controls on your character like worms;
 Movement allows you to reposition you character so your opponent has to vary his shot strength every turn.
-You have to shoot a projectile over the wall to damage your opponent. 
-The wall prevents you from making easy direct shots at your opponent.
-Projectile force can be controlled by charging up the strength of your shots.
-The win condition of the game is knocking a player out by fully depleting his hitpoints. 
+You have to shoot a projectile over the wall to damage your opponent, the wall prevents you from making easy direct shots at your opponent.Projectile force can be controlled by charging up the strength of your shots. The win condition of the game is knocking a player out by fully depleting his hitpoints. 
 
 
 ##Due 04/08:
