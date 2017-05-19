@@ -92,6 +92,7 @@
     <Compile Include="Assets\Marc\Scripts\WorkInProgress\ABProjectile.cs" />
     <Compile Include="Assets\Marc\Scripts\WorkInProgress\P2ABProjectile.cs" />
     <Compile Include="Assets\Scripts\DamageScript.cs" />
+    <Compile Include="Assets\Scripts\GameOverUI.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Menu_Ctrl.cs" />
     <Compile Include="Assets\Scripts\Player2Management.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Assets\Scripts\aiming.cs" />
     <Compile Include="Assets\Scripts\bullet_spawn.cs" />
     <Compile Include="Assets\Scripts\fireBullet.cs" />
+    <Compile Include="Assets\SoundScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />

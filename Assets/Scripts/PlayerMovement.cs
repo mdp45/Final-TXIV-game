@@ -11,16 +11,18 @@ public class PlayerMovement : MonoBehaviour
     Animator anim;
 
 
-    // Use this for initialization
-
+    /// <summary>
+    /// Start gets the player components needed to move the player.
+    /// </summary>
     void Start()
     {
         playerbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-
+    /// <summary>
+    /// This checks for input and calls the neccessary animations when the player is walking.
+    /// </summary>
     void FixedUpdate()
     {
         moveLeftRight(CrossPlatformInputManager.GetAxisRaw("Horizontal"));
@@ -35,6 +37,10 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// This funtion moves the player at a specified speed.
+    /// </summary>
+    /// <param name="moveInput"></param>
     void moveLeftRight(float moveInput)
     {
         Vector2 moveVelocity = playerbody.velocity;

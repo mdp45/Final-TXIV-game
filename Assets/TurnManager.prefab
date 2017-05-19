@@ -54,3 +54,4 @@ MonoBehaviour:
   PlayerL: {fileID: 0}
   PlayerR: {fileID: 0}
   turnPrompt: {fileID: 0}
+  gameOverUI: {fileID: 0}

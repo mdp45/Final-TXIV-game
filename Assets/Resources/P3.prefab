@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 50684531776420980}
   - component: {fileID: 58389608704008564}
   - component: {fileID: 114252700070261506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: P3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1327049221820140}
   m_LocalRotation: {x: 0, y: -0, z: 0.9396927, w: -0.34202015}
-  m_LocalPosition: {x: 13.24, y: -4.13, z: 0}
-  m_LocalScale: {x: -1.6396312, y: -1.6396312, z: -0}
+  m_LocalPosition: {x: 11.91, y: -3.23, z: 0}
+  m_LocalScale: {x: 1.7097685, y: 1.7097685, z: 1.7097685}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,9 +75,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0024089431, y: -0.0068948045}
   serializedVersion: 2
-  m_Radius: 0.23500015
+  m_Radius: 0.29312152
 --- !u!114 &114252700070261506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 5
-  TurnManager: {fileID: 0}
+  selfDestructDelay: 1
 --- !u!212 &212502674482212492
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -123,7 +123,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300016, guid: 46f8484d2c3682446b394f6cbc094b46, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46f8484d2c3682446b394f6cbc094b46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

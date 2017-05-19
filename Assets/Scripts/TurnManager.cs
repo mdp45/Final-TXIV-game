@@ -9,6 +9,9 @@ public class TurnManager : MonoBehaviour {
     public GameObject PlayerR;
     public Text turnPrompt;
 
+	[SerializeField]
+	private GameObject gameOverUI;
+
     private enum gameStates
     {
         PLAYL,
@@ -92,6 +95,9 @@ public class TurnManager : MonoBehaviour {
         }
 	}
 
+    /// <summary>
+    /// This function calls for switching player turns.
+    /// </summary>
     public void SwitchPlayer()
     {
         if (currentState == gameStates.PLAYL)
@@ -103,6 +109,9 @@ public class TurnManager : MonoBehaviour {
             }
     }
 
+    /// <summary>
+    /// This funtion switches only to player 1, used for testing purposes.
+    /// </summary>
     public void SwitchToPlayer1()
     {
         if (currentState == gameStates.PLAYR)
@@ -111,6 +120,10 @@ public class TurnManager : MonoBehaviour {
             currentState = gameStates.TRANSITTOL;
         }
     }
+
+    /// <summary>
+    /// This function switches only to player 2, used for testing purposes.
+    /// </summary>
     public void SwitchToPlayer2()
     {
         if (currentState == gameStates.PLAYL)
@@ -119,6 +132,10 @@ public class TurnManager : MonoBehaviour {
             currentState = gameStates.TRANSITTOR;
         }
     }
+
+    /// <summary>
+    /// This funtion enables the movement, aiming and projectile control scripts on player 1
+    /// </summary>
     public void EnableP1()
     {
         //enable play1 movement and control scripts
@@ -126,12 +143,20 @@ public class TurnManager : MonoBehaviour {
         PlayerL.GetComponent<FProjectile>().enabled = true;
         PlayerL.GetComponent<Aiming>().enabled = true;
     }
+
+    /// <summary>
+    /// This funtion disables the movement, aiming and projectile control scripts on player 1
+    /// </summary>
     public void DisableP1()
     {
         PlayerL.GetComponent<PlayerMovement>().enabled = false;
         PlayerL.GetComponent<FProjectile>().enabled = false;
         PlayerL.GetComponent<Aiming>().enabled = false;
     }
+
+    /// <summary>
+    /// This funtion enables the movement, aiming and projectile control scripts on player 2
+    /// </summary>
     public void EnableP2()
     {
         //enable play2 movement and control scripts
@@ -139,20 +164,31 @@ public class TurnManager : MonoBehaviour {
         PlayerR.GetComponent<FProjectile>().enabled = true;
         PlayerR.GetComponent<P2Aiming>().enabled = true;
     }
+
+    /// <summary>
+    /// This funtion disables the movement, aiming and projectile control scripts on player 2
+    /// </summary>
     public void DisableP2()
     {
         PlayerR.GetComponent<PlayerMovement>().enabled = false;
         PlayerR.GetComponent<FProjectile>().enabled = false;
         PlayerR.GetComponent<P2Aiming>().enabled = false;
     }
+
+	public void EndGame()
+	{
+		Debug.Log("GAME OVER");
+		gameOverUI.SetActive (true);
+
+	}
+
+    /// <summary>
+    /// This function implements the Game Over events, it is called upon by the health script.
+    /// </summary>
     public void GameOver()
     {
-        PlayerR.GetComponent<PlayerMovement>().enabled = false;
-        PlayerL.GetComponent<PlayerMovement>().enabled = false;
-        PlayerL.GetComponent<FProjectile>().enabled = false;
-        PlayerR.GetComponent<FProjectile>().enabled = false;
-        PlayerL.GetComponent<Aiming>().enabled = false;
-        PlayerR.GetComponent<P2Aiming>().enabled = false;
-        turnPrompt.text = "Game Over!";
+        DisableP1();
+        DisableP2();
+		EndGame ();
     }
 }
