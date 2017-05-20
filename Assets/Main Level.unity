@@ -899,13 +899,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.328
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 145
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1837,13 +1837,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.41
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 145
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2283,7 +2283,7 @@ Prefab:
     - target: {fileID: 114911106229562080, guid: cd3f1d852f5ce834fb08a69c80c96c7e,
         type: 2}
       propertyPath: maxHealth
-      value: 35
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114911106229562080, guid: cd3f1d852f5ce834fb08a69c80c96c7e,
         type: 2}
@@ -3399,7 +3399,7 @@ Prefab:
     - target: {fileID: 114784371305400380, guid: 3b5a4a46b3ae47b48ba7fe9c7afd57a4,
         type: 2}
       propertyPath: maxHealth
-      value: 35
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114784371305400380, guid: 3b5a4a46b3ae47b48ba7fe9c7afd57a4,
         type: 2}
