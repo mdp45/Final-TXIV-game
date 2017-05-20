@@ -6,6 +6,7 @@ Movement allows you to reposition you character so your opponent has to vary his
 You have to shoot a projectile over the wall to damage your opponent, the wall prevents you from making easy direct shots at your opponent.Projectile force can be controlled by charging up the strength of your shots. The win condition of the game is knocking a player out by fully depleting his hitpoints. 
 
 The game was designed for 2 player pass and play.
+![alt text](https://github.com/csc631-831-spring-2017/Team14-final-project/blob/master/ReadmeImg/FinalVersion.PNG)
 
 ---
 ##Due 04/08:
