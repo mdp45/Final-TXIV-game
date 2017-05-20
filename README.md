@@ -71,6 +71,7 @@ The game was designed for 2 player pass and play.
  * ~~Implement background music and SFX~~ - completed by Marc & Brian
  * ~~Game Over~~ - completed by Brian
  * ~~Power bar for shots~~ - Completed by Jeremy
+ * ~~Code commentary~~ - Completed by Jeremy
  * ~~Refine level design~~ - Completed by Marc
 
 ---
