@@ -5,6 +5,8 @@ Unlike Cat vs Dog, you have movement controls on your character like worms;
 Movement allows you to reposition you character so your opponent has to vary his shot strength every turn.
 You have to shoot a projectile over the wall to damage your opponent, the wall prevents you from making easy direct shots at your opponent.Projectile force can be controlled by charging up the strength of your shots. The win condition of the game is knocking a player out by fully depleting his hitpoints. 
 
+The game was designed for 2 player pass and play.
+
 ---
 ##Due 04/08:
 
