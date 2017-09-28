@@ -37,8 +37,8 @@ public class FProjectile : MonoBehaviour {
     {
         if (CrossPlatformInputManager.GetButton("Fire"))
         {
-            PlaySound(0);
             anim.SetInteger("State", 2);
+            PlaySound(0);
             if (projectileForce < maxForce)
             {
                 projectileForce += forceIncrement;
